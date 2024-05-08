@@ -20,7 +20,7 @@ const Movie = ({ id, title, poster_path }: IMovieProps) => {
   return (
     <li className={styles.movie}>
       <img src={poster_path} alt={title} onClick={onClick} />
-      <Link href={`/movies/${id}`}>{title}</Link>
+      <Link prefetch href={`/movies/${id}`}>{title}</Link>
     </li>
   );
 };
