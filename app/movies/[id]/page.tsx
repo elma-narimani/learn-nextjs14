@@ -1,6 +1,6 @@
 import { Suspense } from "react";
-import MovieInfo, { getMovie } from "../../../components/movie-info";
-import MovieVideos from "../../../components/movie-videos";
+import MovieInfo, { getMovie } from "../../components/movie-info";
+import MovieVideos from "../../components/movie-videos";
 import Link from "next/link";
 
 export interface Iparams {

@@ -1,5 +1,5 @@
 import styles from "../../../../styles/movie-info.module.scss";
-import { getMovie } from "../../../../components/movie-info";
+import { getMovie } from "../../../components/movie-info";
 import { Iparams } from "../page";
 // import { Metadata } from "next";
 

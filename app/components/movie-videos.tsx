@@ -1,4 +1,4 @@
-import { API_URL } from "../app/api";
+import { API_URL } from "../api";
 import styles from "../styles/movie-videos.module.scss";
 
 const getVideos = async (id: string) => {
