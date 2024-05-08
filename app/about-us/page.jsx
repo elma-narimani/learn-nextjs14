@@ -2,10 +2,10 @@ export const metadata = {
   title: "aboutUs",
 };
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
       <h1>aboutUs</h1>
   );
 };
 
-export default AboutUs;
+export default AboutUsPage;

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "NotFound",
 };
-const NotFound = () => {
+const NotFoundPage = () => {
   return (
      <div>
       <h1>Not Found</h1>
@@ -11,4 +11,4 @@ const NotFound = () => {
   )
 }
 
-export default NotFound
+export default NotFoundPage
