@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { API_URL } from "../../../../(home)/page";
 import { Iparams } from "../../page";
+import { API_URL } from "../../../../api";
 
 const getMovieProviders = async (id: string) => {
   const response = await fetch(`${API_URL}/${id}/providers`);
